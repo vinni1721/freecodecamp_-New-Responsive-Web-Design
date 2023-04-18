@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Online food delivery Application Survey form</h1>
+<p id="description">Thank you for taking the time to fill the survey form.</p>
+<form id="survey-form">
+ <div class="input-element">
+    <label id="name-label">
+    Name
+  </label>
+  <input placeholder="name" id="name" type="text" required/></div>
+  <div class="input-element">
+    <label id="email-label">
+    Email
+  </label>
+  <input placeholder="email" id="email" type="email" required/>
+  </div>
+  <div class="input-element">
+    <label id="number-label">
+    Age
+  </label>
+  <input placeholder="age" id="number" min="5" max="100" type="number"  required/>
+  </div>
+   <div class="input-element">
+    <label id="select-label">
+    Which is fast food delivery app in your location?
+  </label>
+  <select id="dropdown">
+    <option>Zomato</option>
+    <option>Swigy</option>
+    <option>Eat street</option>
+    <option>Box 8</option>
+  </select> 
+  </div>
+  <div> 
+    <label>How many times do you order delivery each week on average?</label>
+    <div>
+    <label><input type="radio" value="3" name="food">less than 3 times per week</label>
+    </div>
+    <div>
+    <label><input type="radio" value="3-6" name="food">3-6 times per week</label>
+    </div>
+    <div>
+    <label><input type="radio" value="6" name="food">More than 6times per week</label>
+    </div>
+  </div>
+ <div> 
+    <label>which meal you tipcale order food online</label>
+    <div>
+    <label><input type="checkbox" name="ideas" value="brekfast"/>Brekfast</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="lunch"/>Lunch</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="snacks"/>snacks</label>
+    </div>
+    <div>
+      <label><input type="checkbox" name="ideas" value="dinner"/>Dinner</label>
+      </div>
+  </div>
+  <div class="input-element">
+    <label>Aditional comments</label>
+    <textarea type="text"></textarea>
+  </div>
+  <button type="submit" id="submit">
+submit
+  </button>
+</form>
+
